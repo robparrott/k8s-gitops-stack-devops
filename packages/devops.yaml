@@ -13,7 +13,7 @@ spec:
       recurse: true
     repoURL: https://github.com/aetna-digital-infrastructure/dfp-gitops-stack-devops.git
     targetRevision: HEAD
-    path: modules
+    path: modules/devops-ns
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
