@@ -22,7 +22,7 @@ spec:
   source:
     repoURL: 'https://kubernetes-charts.storage.googleapis.com/'
     targetRevision: 1.9.1
-    chart:chart-museum
+    chart: chart-museum
 
     helm:
     # # Release name override (defaults to application name)
@@ -44,7 +44,7 @@ spec:
           repository: chartmuseum/chartmuseum
           tag: v0.11.0
           pullPolicy: IfNotPresent
-          
+
         # env:
         #   open:
         #     # storage backend, can be one of: local, alibaba, amazon, google, microsoft, oracle
