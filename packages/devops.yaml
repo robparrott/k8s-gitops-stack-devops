@@ -11,7 +11,7 @@ spec:
   source:
     directory:
       recurse: true
-    repoURL: https://github.com/aetna-digital-infrastructure/dfp-gitops-stack-devops.git
+    repoURL: https://github.com/robparrott/k8s-gitops-stack-devops.git
     targetRevision: HEAD
     path: modules/devops-ns
   destination:
